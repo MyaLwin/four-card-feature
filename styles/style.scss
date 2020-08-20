@@ -1,0 +1,23 @@
+@import './variables';
+@import './header';
+@import './tools';
+@import './media';
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: $lightGrey;
+    font-family: "Poppins", sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: $grayBlue;
+    font-size: 0.75rem;
+    a {
+        text-decoration: none;
+        color: $darkBlue;
+    }
+}
+

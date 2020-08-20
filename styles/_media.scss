@@ -1,0 +1,33 @@
+@media screen and (max-width: 1024px) {
+    .tools {
+        max-width: 800px;
+        .card-push {
+            transform: translateY(0);
+        }
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    header {
+        max-width: 325px;
+        h1 {
+            font-size: 25px;
+            span {
+                font-weight: 600;
+                margin: 0;
+            }
+        }
+         
+        p {
+            font-weight: 200;
+        }
+    }
+    
+    .tools {
+        max-width: 350px;
+        .card-push {
+            transform: translateY(0);
+        }
+    }
+}

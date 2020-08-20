@@ -1,0 +1,57 @@
+.tools {
+    max-width: 76.875em;
+    margin: 3.75rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    > div {
+        background-color: white;
+        justify-self: center;
+        border-radius: 2%;
+        width: 21.875rem;
+        height: 15.625rem;
+        padding: 0.625rem 1.875rem 1.875em 1.875rem; 
+        margin: 0.9375rem;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 5px 5px 20px $grayBlue;
+
+        h3 {
+            color: $darkBlue;
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
+
+        p {
+            color: $grayBlue;
+            font-size: 0.8125rem;
+            font-weight: 200;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+        }
+    }
+    .supervisor {
+        border-top: 0.3125rem solid $cyan;
+    }
+
+    .team-builder {
+        border-top: 0.3125rem solid $red;
+    }
+
+    .karma {
+        border-top: 0.3125rem solid $orange;
+    }
+
+    .calculator {
+        border-top: 0.3125rem solid $blue;
+    }
+
+    .card-push {
+        transform: translateY(50%);
+
+    }
+}
